@@ -1,0 +1,31 @@
+/*
+~/.config/waybar/style.css
+*/
+
+@import url("/home/arch/.cache/wal/colors-waybar.css");
+
+* {
+  font-family: "RobotoMono Nerd Font";
+  font-size: 15px;
+  font-weight: bold;
+  color: @foreground
+
+}
+
+window#waybar {
+  background: alpha(@background, 0.7);
+}
+
+#workspaces button {
+  background-color: transparent;
+}
+
+#backlight,
+#battery,
+#memory,
+#network {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+

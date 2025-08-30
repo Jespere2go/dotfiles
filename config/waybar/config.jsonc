@@ -1,0 +1,56 @@
+{
+  "reload_style_on_change": true,
+  "layer": "top",
+  "position": "top",
+  "margin-top": 10,
+  "margin-left": 15,
+  "margin-right": 15,
+  "height": 38,
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["tray",
+    "backlight",
+    "custom/sep",
+    "battery",
+    "custom/sep",
+    "memory",
+    "custom/sep",
+    "network"],
+
+  "clock": {
+    "format": "{:%I:%M %p}",
+    "tooltip-format": "{:%A | %d-%m-%Y}",
+  },
+  "backlight": {
+    "format": "BACK {percent}%",
+  },
+  "battery": {
+    "bat": "BAT0",
+    "format": "BAT {capacity}%",
+  },
+  "memory": {
+    "format": "MEM {used}GB/{total}GB",
+  },
+  "network": {
+    "interface": "wlan0",
+    "format-wifi": "{essid}",
+  },
+  "custom/sep": {
+    "format": "|",
+  },
+  "hyprland/workspaces": {
+	  "format": "{icon}",
+	  "format-icons": {
+		  "1": "I",
+		  "2": "II",
+		  "3": "III",
+		  "4": "IV",
+		  "5": "V",
+      "6": "VI",
+		  "7": "VII",
+		  "8": "<VIII",
+		  "9": "IX",
+		  "10": "X",
+	  },
+  }
+}

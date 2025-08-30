@@ -1,0 +1,368 @@
+z
+cd .config/nushell/
+ls
+nvim env.nu
+nvim config.nu
+ls
+z
+lsblk
+ls
+ps
+ps | less
+sudo pacman -S less
+ps | less
+ranger
+sudo pacman -S ranger cowsay fortune
+sudo pacman -S ranger cowsay
+z .config/
+ls
+z nushell/
+ls
+nvim config.nu
+nvim env.nu
+help
+ls | sort-by size
+ls | sort-by size --revert
+ls | sort-by size --reverse
+ls | sort-by last-edited --reverse
+ls | sort-by edited --reverse
+ls | sort-by modified --reverse
+edit_mode vi
+config nu
+ls
+nvim env.nu
+config nu
+config nu 
+config nu
+z Downloads/
+z ..
+z .config/hypr/
+ls
+nvim hyprland.conf
+cd ..
+ls
+cd neofetch/
+ls
+cd ..
+cd nvim/
+ls
+nvim 
+cd lua/plugins/
+ls
+touch colorscheme.lua
+nvim colorscheme.lua
+nvim 
+ls
+cd .cargo/
+ls
+cd registry/
+ls
+z
+ls
+wich nu
+which nu
+chsh /usr/bin/nu
+chsh
+cowsay
+cowsay hey
+cowsay -h
+cowsay -l
+cowsay -f kiss hey
+cowsay -f www hey
+cowsay -f vader hey
+cowsay -l
+cowsay -f llama hey
+cowsay -f udder hey
+cowsay -f small hey
+cowsay -f hellokitty hey
+cowsay -f beever hey
+cowsay -f dragon hey
+cowsay -l
+cowsay -f luke hey
+cowsay -f luke-koala hey
+cowsay -f flaming-sheep hey
+cowsay -f beavis.zen hey
+cowsay -l
+cowsay -f actually hey
+clear
+neofetch
+sudo pacman -Rns qv4l2
+pacman -Qdt
+sudo pacman -Rns libspng
+neofetch
+sudo pacman -Rns guvciew-qt
+sudo pacman -Rns v4l-utils
+nmtui
+ls
+cd .config/
+ls
+z neofetch/
+ls
+neofetch
+bat
+nvim config.conf
+clear
+neofetch
+z neo
+ls
+nvim config.conf
+yay -S krabby-bin
+paru -S krabby-bin
+krabby
+krabby random
+clear
+krabby random
+krabby pikachu
+clear
+krabby name pikachu
+krabby name raichu
+nmtui
+bluetui 
+bluetui
+sudo pacman -Syu
+bluetui
+ip addr
+z way
+z .config/waybar/
+ls
+nvim config.jsonc
+cat style.css
+z mo
+ls
+nvim design.conf
+z ..
+ls
+z alacritty/
+ls
+nvim alacritty.toml
+z wa
+ls
+nvim style.css
+pkill waybar
+waybar
+nvim style.css
+ls
+pywal
+wal
+wal -i Wallpapers/red-anime.jpg
+neofetch
+z wa
+ls
+nvim style.css
+cd .local/state/nvim/swap/
+ls
+cat %home%arch%.config%waybar%style.css.swp
+rm %home%arch%.config%waybar%style.css.swo
+ls
+rm %home%arch%.config%waybar%style.css.swp
+ls
+rm *
+z wa
+colcrt 
+columns 
+cat config.jsonc | columns 
+wal -i Wallpapers/field.jpg
+wal -i `Wallpapers/undefined - Imgur.jpg`
+cd .cache/
+ls
+cd wal
+ls
+cat colors.css
+z wa
+ls
+cat colors.css
+ls
+cat colors-waybar.css
+waybar 
+clear
+waybar 
+rm colors.css
+wal -i Wallpapers/lake.png
+z al
+z
+cd .config/alacritty/
+ls
+cd .cache/wal
+ls
+cat colors
+cat colors-kitty.conf
+clear
+ls
+ls -la
+ls
+clear
+ls
+ls -la
+clear
+ls -la
+cd .config/
+ls
+z   nushell/
+ls
+nvim env.nu
+clear
+cd
+wal -i Wallpapers/anime.gif
+nvim alacritty.toml
+ls
+z nus
+ls
+wal -i Wallpapers/anime.gif && swww Wallpapers/anime.gif
+wal -i Wallpapers/anime.gif and swww Wallpapers/anime.gif
+wal -i Wallpapers/anime.gif ; swww Wallpapers/anime.gif
+swww Wallpapers/anime.gif
+swww -i Wallpapers/anime.gif
+swww -h
+wal -i Wallpapers/anime.gif ; swww img Wallpapers/anime.gif
+swww img Wallpapers/anime.gif
+swww img Wallpapers/forest.jpg
+wal -i Wallpapers/forest.jpg ; swww img Wallpapers/forest.jpg
+waybar
+clear
+neofetch
+z nu
+ls
+nvim env.nu
+wal -i Wallpapers/lake.png ; swww img Wallpapers/lake.png
+wal -h
+z script
+ls
+./reload_waybar.sh
+cp reload_waybar.sh ../../waybar/
+ls
+cd
+clear
+neofetch
+waybar
+wal -i Wallpapers/lake.png -o .config/waybar/reload_waybar.sh  ; swww img Wallpapers/lake.png
+neofetch
+clear
+neofetch
+wal -i Wallpapers/forest.jpg -o .config/waybar/reload_waybar.sh  ; swww img Wallpapers/forest.jpg
+wal -i Wallpapers/lake.png -o .config/waybar/reload_waybar.sh  ; swww img Wallpapers/lake.png
+pkill waybar
+wal -i Wallpapers/lake.png -o .config/waybar/reload_waybar.sh  ; swww img Wallpapers/lake.png
+z ba
+ls
+z ne
+ls
+touch ascii.txt
+nvim ascii.txt
+neofetch --help
+neofetch --ascii ascii.txt
+nvim ascii.txt
+neofetch --ascii ascii.txt
+neofetch
+touch test.txt
+touch ascii
+nvim ascii
+neofetch --ascii ascii
+rm ascii.txt
+nvim test
+neofetch --ascii test
+nvim test
+neofetch --ascii test
+waybar
+notify-send lol
+echo $HYPRLAND_INSTANCE_SIGNATURE
+echo $env.HYPRLAND_INSTANCE_SIGNATURE
+xbacklight
+sudo pacman -Syu xbacklight
+ddcutil detect --verbose
+z mo
+ls
+nvim keybinds.conf
+brightnessctl
+sudo pacman -S brightnessctl
+hyprland
+paru -S musikcube
+sudo pacman -S balena-eatcher
+sudo pacman -S balena-etcher
+paru -S balena-etcher
+ping https://151.115.73.107/
+cd .config/
+ls
+nvim trashrc
+cd ..
+lsblk
+cd 
+cd .cache/wal/
+l
+ls
+wal -i Wallpapers/lake.png -o .config/waybar/reload_waybar.sh  ; swww img Wallpapers/lake.png
+cd
+wal -i Wallpapers/wallhaven-r29w2m.jpg -o .config/waybar/reload_waybarsh  ; swww img Wallpapers/wallhaven-r29w2m.jpg
+wal -i Wallpapers/lake.png -o .config/waybar/reload_waybar.sh  ; swww img Wallpapers/lake.png
+wal -i Wallpapers/lake.png -o .config/waybar/reload_waybar  ; swww img Wallpapers/lake.png
+wal -i Wallpapers/lake.png -o .config/waybar/reload_waybar.sh  ; swww img Wallpapers/lake.png
+pkill waybar
+hyprland
+nvim .config/waybar/config.jsonc
+waybar
+nvim .config/waybar/config.jsonc
+waybar
+nvim .config/waybar/config.jsonc
+hyprland
+wal -i Wallpapers/lake.png ; swww img Wallpapers/lake.png
+wal -i Wallpapers/forest.jpg ; swww img Wallpapers/forest.jpg
+cd .config/hypr/
+ls
+cd modules/
+ls
+nvim keybinds.conf
+nvim design.conf
+nvim monitors.conf
+wal -i Wallpapers/lake.png ; swww img Wallpapers/a
+cd
+wal -i Wallpapers/red-anime.jpg ; swww img Wallpapers/red-anime.jpg
+wal -i Wallpapers/forest.jpg ; swww img Wallpapers/forest.jpg
+cd .cache/wal/
+ls
+cd .config/hypr/
+ls
+nvim hyprland.conf
+cd modules/
+ls
+nvim programs.conf
+clear
+nvim programs.conf
+cd
+cd .config/
+ls
+musikcube
+rofi
+rofi -e "diter"
+cd .config/
+mkdir rofi
+cd rofi
+rofi -dump-config > config.rasi
+clear
+touch config.rasi
+rofi -dump-config > config.rasi
+sudo pacman -S rofi-wayland
+notify-send lol
+dunst
+mkdir dunst
+cd dunst/
+touch dunstrc
+hyprland
+git clone https://github.com/Kaikuck/Stadt-Land-Fluss-Game-
+ls
+cd Stadt-Land-Fluss-Game-/
+ls
+python StadtLand.py
+cd
+rm Stadt-Land-Fluss-Game-/
+rm -r Stadt-Land-Fluss-Game-/
+git clone https://github.com/Jespere101/dotfiles/tree/main
+touch ssh.py
+nvim ssh.py
+python ssh.py
+git clone https://github.com/Jespere2go/dotfiles
+cd dotfiles/
+ls
+cd
+cd .config/
+ls
+cd ..
+cp .config/ dotfiles/
